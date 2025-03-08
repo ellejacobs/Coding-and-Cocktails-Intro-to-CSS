@@ -1,18 +1,21 @@
-h1,
-h2,
-h3{  
-    color: #1d1395;
-}
-body{
+body { 
     background-color: #f2dcf2;
 }
+
 .drinks {
-    background-color: #dbe2ef;
+    background-color: #b4c5e3;
 }
-main li :hover{
-    background-color: #deb6de;
-}
+
 nav,
 footer{
     background-color: #8dbfa1;
+}
+
+h1,
+h2,
+h3 {  
+  color: #1d1395;
+}
+main li :hover{
+    background-color: #deb6de;
 }
