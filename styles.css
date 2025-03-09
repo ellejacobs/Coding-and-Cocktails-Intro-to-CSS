@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 html,
 body,
 div,
@@ -24,6 +25,7 @@ section {
 
 body { 
     background-color: #f2dcf2;
+    font-family: "Shadows Into Light", cursive;
 }
 
 .drinks {
@@ -33,12 +35,14 @@ body {
 nav,
 footer{
     background-color: #8dbfa1;
-}
+    font-family: "Shadows Into Light", cursive;
+}   
 
 h1,
 h2,
 h3 {  
   color: #1d1395;
+  font-family: "Shadows Into Light", cursive;
 }
 
 main li :hover{
@@ -108,6 +112,10 @@ h2 {
     margin-left: 15px;
 }
 
+p{
+    font-size: 1.25em;
+}
+
 li {
     padding-top: 40px;
     margin-right: 15px;
@@ -116,4 +124,9 @@ li {
 
 .drinks li{
     border-top: 1px dotted white;
+}
+
+.beverage::before {
+    font: var(--fa-font-solid);
+    content: "\f57b";
 }
